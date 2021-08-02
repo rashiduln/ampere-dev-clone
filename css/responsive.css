@@ -1,0 +1,62 @@
+@media all and (max-width: 1150px){
+    *{
+        box-sizing: border-box;
+    }
+    body { 
+        overflow: auto;
+    }
+    #header{ 
+        position: fixed;
+        width: 250px;
+        background: rgba(0,0,0, 0.6);
+        height: 100vh;
+        left: -300px;
+        top: 0;
+        overflow: auto;
+        color: #fff; 
+        padding-top: 50px; 
+        transition: 0.5s; 
+    }
+    #header.active{
+        left: 0; 
+    }
+    #header a{
+        display: block;
+        text-align: left;
+        padding: 10px ; 
+        margin-top: 0; 
+        border-bottom: 1px solid rgba(228, 228, 228, 0.6); 
+    }
+    .menuToggler{
+        height: 50px; 
+        width: 50px;
+        background: rgb(26, 26, 26); 
+        position: fixed;
+        top: 30px;  
+        right: 20px; 
+        border: 1px solid red; 
+        border-radius: 5px; 
+        padding: 5px; 
+    }
+    .menuToggler span {
+        display: block; 
+        height: 2px ; 
+        background-color: #fff; 
+        margin: 9px 5px; 
+    }
+    .bg-text{
+        max-width: 90%;
+        height: initial;
+        text-align: left;
+        position: static;
+        transform: none;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footer{ 
+        position: static;
+        margin-top: 50px;
+    }
+   
+}
